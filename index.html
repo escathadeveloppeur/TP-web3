@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lukonga Diabanza Guerschom | Portfolio</title>
+    <!-- Font Awesome pour icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">escathservice<span>.</span></div>
+                <div class="nav-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ACCUEIL / HERO -->
+        <section id="accueil" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge"><i class="fas fa-terminal"></i>  Bac+2 Génie Logiciel</span>
+                    <h1>Lukonga <span>Diabanza</span> Guerschom</h1>
+                    <div class="matricule"><i class="fas fa-id-card"></i> Matricule : 2024021030</div>
+                    <p class="hero-desc">
+                        Passionné par l'architecture logicielle et la sécurité. 
+                        Je construis des systèmes complets et robustes avec une élégance minimaliste.
+                    </p>
+                    <a href="#projets" class="btn" style="background: var(--accent); box-shadow: 0 10px 15px -5px #f97316;">
+                        <i class="fas fa-arrow-down"></i> Voir mes projets
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <div class="code-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION COMPÉTENCES -->
+        <section id="competences" class="competences">
+            <div class="container">
+                <h2><i class="fas fa-cog" style="margin-right: 10px;"></i> Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Bases de données</h3>
+                        <p>Modélisation, SQL, optimisation</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>Génie logiciel</h3>
+                        <p>UML, Design Patterns, Agile</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Sécurité & virus</h3>
+                        <p>Analyse malware, reverse</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Algorithmique</h3>
+                        <p>Structures complexes</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Développement fullstack</h3>
+                        <p>HTML/CSS/JS, PHP, Python</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PROJETS -->
+        <section id="projets" class="projets">
+            <div class="container">
+                <h2><i class="fas fa-rocket" style="margin-right: 10px;"></i> Projets réalisés</h2>
+                <div class="projets-grid">
+                    <!-- Projet 1 : système scolaire complet -->
+                    <div class="projet-card">
+                        <div class="projet-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Système scolaire</h3>
+                            <div class="type"><i class="fas fa-cubes"></i> Application complète</div>
+                        </div>
+                        <div class="projet-body">
+                            <p>Plateforme intégrale de gestion d'établissement : inscriptions, notes, emplois du temps, bulletins, communication.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle"></i> Gestion multi‑utilisateurs (admin, prof, élève, parent)</li>
+                                <li><i class="fas fa-check-circle"></i> Modules de notes / absences / examens</li>
+                                <li><i class="fas fa-check-circle"></i> Génération automatique de bulletins PDF</li>
+                                <li><i class="fas fa-check-circle"></i> API REST & interface admin réactive</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 : création d'un virus (cadre éducatif / cybersécurité) -->
+                    <div class="projet-card">
+                        <div class="projet-header" style="background: #a1301f;">
+                            <i class="fas fa-biohazard"></i>
+                            <h3>Ransomware éducatif</h3>
+                            <div class="type"><i class="fas fa-flask"></i> Laboratoire de cybersécurité</div>
+                        </div>
+                        <div class="projet-body">
+                            <p>Développement d’un virus Proof‑of‑Concept (environnement contrôlé) pour comprendre les mécanismes de chiffrement et la propagation.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-skull-crosswalk"></i> Chiffrement symétrique (AES) de fichiers factices</li>
+                                <li><i class="fas fa-skull-crosswalk"></i> Techniques d’obfuscation et anti‑debug</li>
+                                <li><i class="fas fa-skull-crosswalk"></i> Module de persistance (registry)</li>
+                                <li><i class="fas fa-skull-crosswalk"></i> Usage strictement pédagogique et éthique</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Petit bonus : un troisième projet pour compléter (optionnel) -->
+                    <div class="projet-card">
+                        <div class="projet-header" style="background: #0f5c4b;">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>nos services</h3>
+                            <div class="type"><i class="fas fa-paint-brush"></i> UI/Dev</div>
+                        </div>
+                        <div class="projet-body">
+                            <p>notre vision est de vous servir et vous faire decouvrire l'impact du numerique dans le monde </p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-star"></i> Creation des site web complexes</li>
+                                <li><i class="fas fa-star"></i> Creation des application mobile desktop</li>
+                                <li><i class="fas fa-star"></i> conception d'une base données</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION CONTACT -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2><i class="fas fa-paper-plane" style="margin-right: 10px;"></i> Contact</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Discutons</h3>
+                        <p><i class="fas fa-user-graduate"></i> Lukonga Diabanza Guerschom</p>
+                        <p><i class="fas fa-id-card"></i> Matricule 2024021030</p>
+                        <p><i class="fas fa-envelope"></i> lukongadiabanza@gmail.com</p>
+                        <p><i class="fas fa-phone-alt"></i> +243 81 301 2087</p>
+                        <p><i class="fas fa-map-marker-alt"></i> lubumbashi, RDC</p>
+                        <p style="margin-top: 30px; font-style: italic;">"De l'idée au code, du code à la solution."</p>
+                    </div>
+                  <form class="contact-form" action="contact.php" method="POST">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="vous@exemple.com" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="sujet">Sujet</label>
+        <input type="text" id="sujet" name="sujet" placeholder="Collaboration / projet" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Parlons de votre projet..." required></textarea>
+    </div>
+    <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Envoyer le message</button>
+</form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Lukonga Diabanza Guerschom — Bac+2 Génie Logiciel (Matricule 2024021030)</p>
+        <p style="margin-top: 10px; font-size: 0.85rem;">Minimal & beau • HTML / CSS pur</p>
+    </footer>
+
+    <!-- Petit script pour rendre le formulaire interactif (non fonctionnel, mais avec une alerte sympa) -->
+    
+</body>
+</html>
